@@ -1,0 +1,14 @@
+server:
+  port: 8051
+spring:
+  application:
+    name: microservice-journey
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/journey?createDatabaseIfNotExist=true
+    username: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: postgresql

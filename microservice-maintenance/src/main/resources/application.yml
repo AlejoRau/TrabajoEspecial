@@ -1,0 +1,9 @@
+server:
+  port: 8053
+spring:
+  application:
+    name: microservice-maintenance
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/maintenance
+      database: maintenance

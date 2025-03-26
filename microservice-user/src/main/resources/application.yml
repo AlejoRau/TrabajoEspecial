@@ -1,0 +1,14 @@
+server:
+  port: 8050
+spring:
+  application:
+    name: microservice-user
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5437/user?createDatabaseIfNotExist=true
+    username: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+database: postgresql
